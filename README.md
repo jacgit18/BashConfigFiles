@@ -68,7 +68,7 @@ If your lost go into edit mode to see what I'm referring to!
 
 **Recall:** The < img > tag in HTML is self closing! 
 
-<img src="wow HTML syntax works too? It's a markdown language as well!" style="You can set your desired dimensions here!" />
+<img src="https://i.pinimg.com/originals/7e/dc/1c/7edc1cf31629edd5b96e275a7d95d0e5.gif" />
 
 <hr>
 
