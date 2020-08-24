@@ -8,7 +8,7 @@ Learn to document all my repo,s more
 
 ## To clone this repository: 
 
-$ git clone https://github.com/jacgit18/BashConfigFiles.git
+    $ git clone https://github.com/jacgit18/BashConfigFiles.git
 
 ## GitHub Markdown Cheat sheet: 
 
