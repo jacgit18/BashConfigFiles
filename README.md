@@ -147,7 +147,8 @@ Thankfully the community has built tools like <a href="http://manpages.ubuntu.co
 ![Tree.gif](/GIFs/Tree.gif)
 
 
-#### Here is the file structure for this repository make this into a block element so it doesn't look as messy: 
+#### Here is the file structure for this repository make this into a block element so it doesn't look as messy: use tilda sign under esc
+```
 .
 ├── Images
 │   ├── CTP_Logo.png
@@ -158,7 +159,7 @@ Thankfully the community has built tools like <a href="http://manpages.ubuntu.co
 |   ├── Stretch Challenge Completed.gif
 |   ├── Challenge_6.gif
 |   
-
+```
 
 <hr>
 
