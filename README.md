@@ -20,12 +20,12 @@ $ git clone https://github.com/jacgit18/BashConfigFiles.git
 
 <hr>
 
-###### Change this to an h1 tag
-##### Change this to an h2 tag
-#### Change this to an h3 tag
-### Change this to an h4 tag
-## Change this to an h5 tag
-# Change this to an h6 tag
+# Change this to an h1 tag
+## Change this to an h2 tag
+### Change this to an h3 tag
+#### Change this to an h4 tag
+##### Change this to an h5 tag
+###### Change this to an h6 tag
 
 <hr>
 
@@ -33,9 +33,9 @@ $ git clone https://github.com/jacgit18/BashConfigFiles.git
 
 <hr>
 
-- item 1
-- item 2
-- item 3
+1. item 1
+2. item 2
+3. item 3
 - item 4
 - item 5
 - item 6
@@ -46,8 +46,7 @@ $ git clone https://github.com/jacgit18/BashConfigFiles.git
 
 <hr>
 
-1 Leetcode a day keeps unemployment away. Start finite first, then inductively expand. Focus on your Foundation, frameworks come and go! The best way to learn is to learn by doing, and try to break things, the more you mess around with the code the better your understanding will become! 
-
+*1 Leetcode a day keeps unemployment away. Start finite first, then inductively expand. Focus on your Foundation, frameworks come and go! The best way to learn is to learn by doing, and try to break things, the more you mess around with the code the better your understanding will become!*
 <hr>
 
 ### Challenge 4: Find the hidden image and add it to this page! 
