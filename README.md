@@ -54,7 +54,7 @@ $ git clone https://github.com/jacgit18/BashConfigFiles.git
 
 <hr>
 
-![Your Image Should be here](/Images/Insert_the_CTP_Logo.png)
+![CTP Logo](/Images/CTP_Logo.jpg)
 
 **Note:** You can also embed images like this using URL's instead of the local file location! 
 Insert the URL inside the (Parenthesis) rather than the file location. 
