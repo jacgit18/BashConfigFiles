@@ -20,12 +20,12 @@ $ git clone https://github.com/jacgit18/BashConfigFiles.git
 
 <hr>
 
-###### Change this to an h1 tag
-##### Change this to an h2 tag
-#### Change this to an h3 tag
-### Change this to an h4 tag
-## Change this to an h5 tag
-# Change this to an h6 tag
+ <h1>Change this to an h1 tag</h1>
+ <h2>Change this to an h2 tag</h2>
+ <h3>Change this to an h3 tag</h3>
+ <h4>Change this to an h4 tag</h4>
+ <h5>Change this to an h5 tag</h5>
+ <h6>Change this to an h6 tag</h6>
 
 <hr>
 
