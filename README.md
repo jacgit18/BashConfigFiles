@@ -7,7 +7,7 @@ Learn to document all my repo,s more
 
 <hr>
 
-### Steps to managing config files -
+### Steps to managing config files - (change info)
 
     $ git clone https://github.com/jacgit18/BashConfigFiles.git
     $ source ~/.bashrc
