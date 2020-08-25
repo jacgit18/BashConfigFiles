@@ -8,7 +8,7 @@ Learn to document all my repo,s more
 
 ## To clone this repository: 
 
-$ git clone https://github.com/jacgit18/BashConfigFiles.git
+    $ git clone https://github.com/jacgit18/BashConfigFiles.git
 
 ## GitHub Markdown Cheat sheet: 
 
@@ -20,12 +20,12 @@ $ git clone https://github.com/jacgit18/BashConfigFiles.git
 
 <hr>
 
- <h1>Change this to an h1 tag</h1>
- <h2>Change this to an h2 tag</h2>
- <h3>Change this to an h3 tag</h3>
- <h4>Change this to an h4 tag</h4>
- <h5>Change this to an h5 tag</h5>
- <h6>Change this to an h6 tag</h6>
+# Change this to an h1 tag
+## Change this to an h2 tag
+### Change this to an h3 tag
+#### Change this to an h4 tag
+##### Change this to an h5 tag
+###### Change this to an h6 tag
 
 <hr>
 
@@ -33,9 +33,9 @@ $ git clone https://github.com/jacgit18/BashConfigFiles.git
 
 <hr>
 
-- item 1
-- item 2
-- item 3
+1. item 1
+2. item 2
+3. item 3
 - item 4
 - item 5
 - item 6
@@ -46,8 +46,7 @@ $ git clone https://github.com/jacgit18/BashConfigFiles.git
 
 <hr>
 
-1 Leetcode a day keeps unemployment away. Start finite first, then inductively expand. Focus on your Foundation, frameworks come and go! The best way to learn is to learn by doing, and try to break things, the more you mess around with the code the better your understanding will become! 
-
+*1 Leetcode a day keeps unemployment away. Start finite first, then inductively expand. Focus on your Foundation, frameworks come and go! The best way to learn is to learn by doing, and try to break things, the more you mess around with the code the better your understanding will become!*
 <hr>
 
 ### Challenge 4: Find the hidden image and add it to this page! 
@@ -55,7 +54,7 @@ $ git clone https://github.com/jacgit18/BashConfigFiles.git
 
 <hr>
 
-![Your Image Should be here](/Images/Insert_the_CTP_Logo.png)
+![CTP Logo](/Images/CTP_Logo.jpg)
 
 **Note:** You can also embed images like this using URL's instead of the local file location! 
 Insert the URL inside the (Parenthesis) rather than the file location. 
@@ -69,14 +68,14 @@ If your lost go into edit mode to see what I'm referring to!
 
 **Recall:** The < img > tag in HTML is self closing! 
 
-<img src="wow HTML syntax works too? It's a markdown language as well!" style="You can set your desired dimensions here!" />
+<img src="https://i.pinimg.com/originals/7e/dc/1c/7edc1cf31629edd5b96e275a7d95d0e5.gif" />
 
 <hr>
 
 ### Challenge 6: Add a .gif file to this document: 
 *(Hint: Check the GIFs Folder, look for a file named Challenge_6.gif)* 
 
-![ Wait a minute this is exactly what we did before](/GIFs/The_Fun_Begins_Now.gif)
+![ GIF File](/GIFs/Challenge_6.gif)
 
 # Stretch Challenge: 
 ### For those of you who wish to surpass their limits, and go beyond!  
@@ -90,13 +89,13 @@ If your lost go into edit mode to see what I'm referring to!
 
 <hr>
 
-- Ubuntu 
-
-$ sudo apt-get update
+- Ubuntu tab twice
+    
+        $ sudo apt-get update
 
 - Arch 
 
-$ sudo pacman -Syu
+        $ sudo pacman -Syu
 
 <hr>
 
@@ -108,15 +107,26 @@ $ sudo pacman -Syu
 You may copy and paste the following <a href="https://www.twitchquotes.com/copypastas/3100">ASCII art</a>
 
 ```
-PASTE YOUR ASCII ART HERE! 
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣷⡄⢀⣴⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢀⣀⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣇⣀⣠⣤⣤⡤⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣋⣅⣀⣀⣌⠉⠻⢿⣿⣿⣿⡿⠁⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⡟⠋⠉⠀⠀⠉⠙⠻⢶⡌⢻⣿⣿⠁⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣀⣠⣾⣿⣧⣶⣦⣄⢀⣤⣶⣦⣄⠀⠘⣿⣿⣿⣶⣦⣀
+⠀⣰⡆⠀⠀⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿⣿⠆⠀⣿⣿⣿⠟⠋⠁
+⠀⣿⣇⠀⠀⠀⠀⠀⠀⣸⣿⠻⠿⠟⡃⠀⠻⠿⠿⠟⠀⠀⣿⣿⣶⣄⠀⠀
+⠀⢹⣿⣤⣤⣄⣀⠀⠾⠿⣿⡀⠀⠀⣇⣼⠀⠀⠀⠀⠀⢀⠙⣿⣿⡿⠿⠀
+⠀⢸⣿⣿⣿⣿⣿⠀⠀⢀⣼⡧⢀⣠⣤⣤⣄⠀⠀⠀⠀⢠⣶⣿⣍⠀⠀⠀
+⠀⠘⠿⣿⣿⣿⠋⠀⠀⠈⠽⢷⡿⣿⣿⣿⣿⡷⠂⠀⢠⣿⡍⠉⠉⠀⠀⠀
+⠀⠀⠀⣼⠉⢧⠀⠀⠀⠀⢠⣡⢽⣤⣀⠀⠀⠀⣠⠞⠃⠀⠁⠀⠀⠀⠀⠀
+⠀⠀⠘⡇⠀⠘⡆⠀⠀⠀⢸⣸⢼⡽⣿⣷⣄⢰⣿⣦⣄⣀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣿⠀⠀⣷⣶⡄⢠⠎⠀⠀⣰⢟⣿⣿⣿⣿⢻⡄⠈⢳⡀⠀⠀⠀⠀
+⠀⠀⠀⣿⠀⢀⡇⠀⣰⠋⠀⣤⣼⠏⢸⣿⣿⣿⣿⠘⣷⠀⠀⢳⡀⠀⠀⠀
+⢀⠀⠀⣿⠀⠈⣇⣵⠃⠀⢠⣿⡏⠀⣼⣿⣿⣿⡏⠀⢹⡆⠀⠈⡇⠀⠀⠀
+⠀⠀⠀⢸⠀⠀⠉⠉⠀⣠⣾⣿⠻⣄⣻⣿⣿⣿⡇⣤⡾⠃⠀⠀⡇⠀⠀⠀```
+
 ```
 
-Read and delete the line below when your editing it is not needed: 
-```
-$ echo One practical benefit of this is that when I have a really really long bash or shell command, and it might take up alot of lines, and it might be confusing to understand how to use it! But by making it a block element you can scroll through this line! :D 
-```
-
-*(Additional Hint: What is a back tick? It is also known as the '~' tilda key, 
+>*(Additional Hint: What is a back tick? It is also known as the '~' tilda key, 
 it is located above the tab key, and below the esc key on modern keybaords! 
 The back tick symbol looks like this: **`** )*
 
@@ -137,7 +147,8 @@ Thankfully the community has built tools like <a href="http://manpages.ubuntu.co
 ![Tree.gif](/GIFs/Tree.gif)
 
 
-#### Here is the file structure for this repository make this into a block element so it doesn't look as messy: 
+#### Here is the file structure for this repository make this into a block element so it doesn't look as messy: use tilda sign under esc
+```
 .
 ├── Images
 │   ├── CTP_Logo.png
@@ -148,7 +159,7 @@ Thankfully the community has built tools like <a href="http://manpages.ubuntu.co
 |   ├── Stretch Challenge Completed.gif
 |   ├── Challenge_6.gif
 |   
-
+```
 
 <hr>
 
@@ -172,4 +183,5 @@ Here are additional resources you can visit if you ever need to reference anythi
 <hr>
 
 ![Completion.gif](/GIFs/Completion.gif)
+
 

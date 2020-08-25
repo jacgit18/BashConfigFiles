@@ -1,9 +1,27 @@
-#  ____ _____
-# |  _ \_   _|  Derek Taylor (DistroTube)
-# | | | || |    http://www.youtube.com/c/DistroTube
-# | |_| || |    http://www.gitlab.com/dwt1/
-# |____/ |_|
-#
+#    _  ____  ____ 
+#   / |/  _ \/   _\
+#   | || / \||  /  
+#/\_| || |-|||  \__
+#\____/\_/ \|\____/
+                  
+#⠄⠄⠄⠄⠄⠄⠄⠄⠄⣴⣦⡀⠄⠄⠄⠄⠄⠄⢀⣴⣷⡀⠄⠄⠄⠄⠄⠄⠄⠄
+#⠄⠄⠄⠄⠄⠄⠄⠄⣸⣿⣿⠁⠄⠄⢀⡀⠄⠄⠈⣿⣿⣇⠄⠄⠄⠄⠄⠄⠄⠄
+#⠄⠄⠄⠄⠄⠄⠄⠄⢻⣿⣷⢀⣠⣶⣿⣿⣶⣄⡀⣾⣿⡟⠄⠄⠄⠄⠄⠄⠄⠄
+#⠄⠄⠄⠄⠄⠄⠄⣀⡈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢁⣀⠄⠄⠄⠄⠄⠄⠄
+#⠄⠄⠄⠐⠶⣿⣿⣿⣿⣌⠻⣿⣿⣿⣿⣿⣿⣿⣿⠟⣡⣿⣿⣿⣿⠶⠂⠄⠄⠄
+#⠄⠄⠄⠄⠄⣦⡬⢙⠛⠿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣾⠿⠛⡋⢥⣴⠄⠄⠄⠄⠄
+#⠄⠄⠄⠄⢠⣿⣇⢸⣿⣷⣦⣍⠻⣿⣿⣿⣿⠟⣩⣴⢾⣿⡇⣸⣿⡄⠄⠄⠄⠄
+#⠄⠄⠄⢀⣾⣿⣿⢸⣿⣟⠻⣿⣷⣦⡹⢏⣴⣾⣿⠏⢻⣿⡇⣿⣿⣷⡀⠄⠄⠄
+#⠄⠄⣠⣾⣿⣿⣿⢸⣿⣿⢀⡀⠹⣿⣷⣿⣿⠏⠵⣚⣾⣿⡇⣿⣿⣿⣷⣄⠄⠄
+#⢴⣾⣿⣿⣿⣿⣿⡈⣿⣿⡸⣿⣷⣶⣶⣶⣶⣖⣾⣿⣿⣿⢁⣿⣿⣿⣿⣿⣷⡦
+#⠈⢻⣿⣿⣿⣿⣿⣧⠸⣿⣧⡉⢻⣿⣿⣿⣿⡟⠋⣩⣥⠆⣼⣿⣿⣿⣿⣿⡟⠁
+#⠄⠄⠙⣿⣿⣿⣿⣿⣧⡙⣿⣷⣼⣿⣿⣿⣿⣧⣾⣿⢋⣼⣿⣿⣿⣿⣿⠋⠄⠄
+#⠄⠄⠄⠈⠻⣿⣿⣿⣿⣷⣌⠻⣿⣿⡟⣿⣿⣿⡿⣡⣾⣿⣿⣿⣿⠟⠁⠄⠄⠄
+#⠄⠄⠄⠄⠄⠈⠻⡿⠃⣿⣿⣷⣌⠻⡇⣿⠟⣩⣾⣿⣿⠘⢿⠟⠁⠄⠄⠄⠄⠄
+#⠄⠄⠄⠄⠄⠄⠄⠄⠄⠈⠻⣿⣿⣷⣦⣴⣾⣿⣿⠟⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄
+#⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢈⣽⣿⣿⣿⣿⣯⡁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+
+
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
@@ -81,6 +99,16 @@ esac
 
 ### ALIASES ###
 # root privileges
+alias c="clear"
+alias x="exit"
+alias update="sudo aptitude update"
+alias upgrade="sudo aptitude upgrade"
+alias la="ls -a"
+alias install="sudo apt install $1"
+alias appinstall="sudo aptitude install $1"
+alias aptitude="sudo aptitude $1"
+alias i="install"
+alias s="sudo"
 alias doas="doas --"
 
 # navigation
