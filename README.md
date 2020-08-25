@@ -5,10 +5,35 @@
 
 Learn to document all my repo,s more 
 
+<hr>
 
-## To clone this repository: 
+### Steps to managing config files -
 
     $ git clone https://github.com/jacgit18/BashConfigFiles.git
+    $ source ~/.bashrc
+
+#### setting up github config for pushing & pulling
+    
+    $ mkdir bashDotFiles 
+    $ git init --bare $HOME/bashDotFiles/ && ls bashDotFiles/
+    $ echo "alias config='/usr/bin/git --git-dir=$HOME/bashDotFiles/ --work-tree=$HOME'" >> $HOME/.bashrc 
+    $ config config --local status.showUntrackedFiles no
+    
+#### Prior Setup
+    $ git config --global user.email joshuacarpentier21@gmail.com
+    $ git config --global user.name "jac"
+    $ git remote add origin https://github.com/jacgit18/BashConfigFiles.git
+    $ git branch --set-upstream-to=origin/master 
+    $ git status
+    
+    $ config push --set-upstream https://github.com/jacgit18/BashConfigFiles.git
+    $ config pull --set-upstream https://github.com/jacgit18/BashConfigFiles.git
+    
+    $ config add file 
+    $ config commit -m "Add changes"
+    $ config push 
+</hr>
+
 
 ## GitHub Markdown Cheat sheet: 
 
