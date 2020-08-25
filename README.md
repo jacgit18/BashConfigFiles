@@ -11,15 +11,17 @@ Learn to document all my repo,s more
 
     $ git clone https://github.com/jacgit18/BashConfigFiles.git
     $ source ~/.bashrc
+ 
+- Create repo first if it doesnt exist initially
 
-#### setting up github config for pushing & pulling
+#### Setting up github config for pushing & pulling
     
     $ mkdir bashDotFiles 
     $ git init --bare $HOME/bashDotFiles/ && ls bashDotFiles/
     $ echo "alias config='/usr/bin/git --git-dir=$HOME/bashDotFiles/ --work-tree=$HOME'" >> $HOME/.bashrc 
     $ config config --local status.showUntrackedFiles no
     
-#### Prior Setup
+##### Prior Setup
     $ git config --global user.email joshuacarpentier21@gmail.com
     $ git config --global user.name "jac"
     $ git remote add origin https://github.com/jacgit18/BashConfigFiles.git
@@ -41,18 +43,7 @@ Learn to document all my repo,s more
 
 <hr>
 
-### Challenge 1: Edit these lines such that the appropriate tag has the appropriate size! 
 
-<hr>
-
-# Change this to an h1 tag
-## Change this to an h2 tag
-### Change this to an h3 tag
-#### Change this to an h4 tag
-##### Change this to an h5 tag
-###### Change this to an h6 tag
-
-<hr>
 
 ### Challenge 2: Edit these lines such that the items in the list below are ordered! 
 
