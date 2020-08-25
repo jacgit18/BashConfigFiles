@@ -43,11 +43,9 @@ Learn to document all my repo,s more
 
 <hr>
 
-
-
 ### Challenge 2: Edit these lines such that the items in the list below are ordered! 
 
-<hr>
+</hr>
 
 1. item 1
 2. item 2
