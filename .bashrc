@@ -278,7 +278,7 @@ export PATH="$PATH:/home/jac/flutter/bin"
 export PATH="$PATH:/home/jac/tools/bin"
 export ANDROID_HOME="/home/jac/Android/Sdk"
 export PATH="$PATH:/home/jac/script"
-export PATH="$PATH:/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin"
+export PATH="$PATH:/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin: /opt/Derby-10.15/bin"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
