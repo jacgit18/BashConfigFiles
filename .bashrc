@@ -274,7 +274,9 @@ fi
 ### EXPORT
 export PATH="/home/jac/mongodb/mongodb-linux-x86_64-2.4.9/bin:$PATH"
 export PATH="$PATH:`pwd`/flutter/bin"
-export PATH="$PATH:/home/jac/flutter/bin"
+#export PATH="$PATH:/home/jac/flutter/bin"
+export PATH="$PATH:/home/jac/snap/flutter/common/flutter/bin"
+
 export PATH="$PATH:/home/jac/tools/bin"
 export ANDROID_HOME="/home/jac/Android/Sdk"
 export PATH="$PATH:/home/jac/script"
