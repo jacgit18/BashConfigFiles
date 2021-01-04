@@ -214,8 +214,6 @@ alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
 alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
 alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
 
-# bare git repo alias for dotfiles
-alias config='/usr/bin/git --git-dir=$HOME/GitBare/ --work-tree=$HOME'
 
 # termbin
 alias tb="nc termbin.com 9999"
@@ -364,4 +362,6 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
-alias config='/usr/bin/git --git-dir=/home/jac/bashDotFiles/ --work-tree=/home/jac'
+
+alias config='/usr/bin/git --git-dir=$HOME/GitBare/ --work-tree=$HOME' >> $HOME/.bashrc
+
