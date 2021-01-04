@@ -1,8 +1,8 @@
-#             _  ____  ____          #
-#            / |/  _ \/   _\         #
-#            | || / \||  /           #
-#         /\_| || |-|||  \__         #
-#         \____/\_/ \|\____/         #
+#             _  ____  ____           #
+#            / |/  _ \/   _\          #
+#            | || / \||  /            #
+#         /\_| || |-|||  \__          #
+#         \____/\_/ \|\____/          #
                   
 #⠄⠄⠄⠄⠄⠄⠄⠄⠄⣴⣦⡀⠄⠄⠄⠄⠄⠄⢀⣴⣷⡀⠄⠄⠄⠄⠄⠄⠄⠄
 #⠄⠄⠄⠄⠄⠄⠄⠄⣸⣿⣿⠁⠄⠄⢀⡀⠄⠄⠈⣿⣿⣇⠄⠄⠄⠄⠄⠄⠄⠄
@@ -275,14 +275,14 @@ fi
 export PATH="/home/jac/mongodb/mongodb-linux-x86_64-2.4.9/bin:$PATH"
 export PATH="$PATH:`pwd`/flutter/bin"
 #export PATH="$PATH:`pwd`/snap/flutter/current/bin"
-
-#export PATH="$PATH:/home/jac/flutter/bin"
-export PATH="$PATH:/home/jac/snap/flutter/common/flutter/bin"
-
+export PATH="$PATH:/home/jac/flutter/bin"
+#export PATH="$PATH:/home/jac/snap/flutter/common/flutter/bin"
 export PATH="$PATH:/home/jac/tools/bin"
 export ANDROID_HOME="/home/jac/Android/Sdk"
 export PATH="$PATH:/home/jac/script"
-export PATH="$PATH:/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin: /opt/Derby-10.15/bin"
+export PATH="$PATH:/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin"
+#export PATH="$PATH:/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin: /opt/Derby-10.15/bin"
+
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
