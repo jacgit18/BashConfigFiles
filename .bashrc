@@ -3,7 +3,7 @@
 #            | || / \||  /            #
 #         /\_| || |-|||  \__          #
 #         \____/\_/ \|\____/          #
-                  
+
 #⠄⠄⠄⠄⠄⠄⠄⠄⠄⣴⣦⡀⠄⠄⠄⠄⠄⠄⢀⣴⣷⡀⠄⠄⠄⠄⠄⠄⠄⠄
 #⠄⠄⠄⠄⠄⠄⠄⠄⣸⣿⣿⠁⠄⠄⢀⡀⠄⠄⠈⣿⣿⣇⠄⠄⠄⠄⠄⠄⠄⠄
 #⠄⠄⠄⠄⠄⠄⠄⠄⢻⣿⣷⢀⣠⣶⣿⣿⣶⣄⡀⣾⣿⡟⠄⠄⠄⠄⠄⠄⠄⠄
@@ -20,8 +20,6 @@
 #⠄⠄⠄⠄⠄⠈⠻⡿⠃⣿⣿⣷⣌⠻⡇⣿⠟⣩⣾⣿⣿⠘⢿⠟⠁⠄⠄⠄⠄⠄
 #⠄⠄⠄⠄⠄⠄⠄⠄⠄⠈⠻⣿⣿⣷⣦⣴⣾⣿⣿⠟⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄
 #⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢈⣽⣿⣿⣿⣿⣯⡁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
-
-
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
@@ -97,7 +95,22 @@ xterm*|rxvt*)
     ;;
 esac
 
-### ALIASES ###
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    #alias dir='dir --color=auto'
+    #alias vdir='vdir --color=auto'
+
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
+# colored GCC warnings and errors
+#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
+## ALIASES ###
 # root privileges
 alias c="clear"
 alias x="exit"
@@ -240,6 +253,7 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
+
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
@@ -270,17 +284,25 @@ if ! shopt -oq posix; then
 fi
 
 ### EXPORT
-export PATH="/home/jac/mongodb/mongodb-linux-x86_64-2.4.9/bin:$PATH"
-export PATH="$PATH:`pwd`/flutter/bin"
-#export PATH="$PATH:`pwd`/snap/flutter/current/bin"
-export PATH="$PATH:/home/jac/flutter/bin"
-#export PATH="$PATH:/home/jac/snap/flutter/common/flutter/bin"
-export PATH="$PATH:/home/jac/tools/bin"
+
 export ANDROID_HOME="/home/jac/Android/Sdk"
 export PATH="$PATH:/home/jac/script"
-export PATH="$PATH:/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin"
-#export PATH="$PATH:/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin: /opt/Derby-10.15/bin"
 
+JAVA_HOME=/usr/lib/jvm/jdk-11
+MAVEN_HOME=/opt/apache-maven-3.8.6
+GRADLE_HOME=/opt/gradle-7.6
+JAVA_HOME_LATEST=/usr/lib/jvm/jdk-19
+
+
+export JAVA_HOME
+export MAVEN_HOME
+export GRADLE_HOME
+export JAVA_HOME_LATEST
+
+#PATH=$JAVA_HOME/bin:$MAVEN_HOME/bin:$GRADLE_HOME/bin:$PATH
+PATH=$JAVA_HOME_LATEST/bin:$MAVEN_HOME/bin:$GRADLE_HOME/bin:$PATH
+#export PATH="$HOME/.jenv/bin:$PATH"
+#eval "$(jenv init -)"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -362,6 +384,3 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
-
-alias config='/usr/bin/git --git-dir=$HOME/GitBare/ --work-tree=$HOME' >> $HOME/.bashrc
-
